@@ -17,7 +17,7 @@ const useMovie = () => {
   const fetchMovie = () => {
     if (movie?.length >= 3) {
       fetch(
-        `http://www.omdbapi.com/?apikey=e064ad8e&s=${movie}&page=${currentPage}`,
+        `https://www.omdbapi.com/?apikey=e064ad8e&s=${movie}&page=${currentPage}`,
         {
           method: "GET",
         }
