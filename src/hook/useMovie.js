@@ -24,7 +24,7 @@ const useMovie = () => {
       )
         .then((res) => res.json())
         .then((json) => setData(json))
-        .catch(() => console.error(err));
+        .catch((err) => console.error(err));
     }
   };
   //! Movies List
